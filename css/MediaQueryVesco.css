@@ -1,0 +1,378 @@
+/*======================================*/
+/*=========== Start Media Query ========*/
+/*======================================*/
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+/*======================================*/
+/* Very Very Large Devices */
+/*======================================*/
+@media (max-width: 1200px) 
+{
+    
+}
+/*======================================*/
+ /* Very Very Large Devices */
+/*======================================*/
+ 
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+/*======================================*/
+/* Large Devices */
+/*======================================*/
+@media (min-width: 992px)  and (max-width:1199px)
+{
+    
+/*    Start Section Header */
+    
+    .header .navbar .navbar-brand {
+    margin-left: 40px;
+}
+    .header .navbar .nav-link 
+    {
+         margin:0px 9px;
+    }
+    .header .navbar .navbar-nav
+    {
+        margin-right: -3px;
+    }
+    .header .texthead {
+    margin-top: 150px;
+}
+    .header .texthead div {
+    margin-top: 60px;
+}
+    
+    /*    End Section Header */
+    
+    /*    Start Section Testmonail */
+    #Testmonial .testitext {
+        margin-bottom: 80px !important;
+    }
+    
+    /*    End Section Testmonail */
+}
+/*======================================*/
+ /* Large Devices */
+/*======================================*/
+    
+ /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+    
+/*======================================*/
+/* Medium Devices */
+/*======================================*/
+@media (min-width: 768px)  and (max-width:991px)
+{
+     /*    Start Section header */
+     .header .texthead h1
+    {
+        color: darkred;
+    }
+     /*    End Section header */
+
+     /*    Start Section ABout */
+    
+    
+     .about .twoabout {
+        border-left: 180px solid #fff;
+        border-top: 600px solid transparent;
+        height: 600px;
+    }
+   
+    
+    .about .oneabout 
+    {
+        margin-top: 140px;
+        margin-bottom: 20px;
+    }
+    /*    End Section ABout */
+     /*    Start Section Testmonail */
+    #Testmonial .testitext {
+        margin-bottom: 80px !important;
+}
+     #Testmonial p {
+        font-size: $mainfontsize - 6;
+    }
+      /* End Section Testmonail */
+}
+    /*======================================*/
+ /* Medium Devices */
+/*======================================*/
+       @media (max-width:991px)
+{
+/*    Start Section Header*/
+    .header .navbar
+    {
+        background-color: rgba(3,3,3,.5)
+    }
+.header .navbar .nav-link 
+    {
+         margin:10px 10px 10px 60px;
+        text-align: left;
+    }
+    .header .navbar .nav-link:before
+{
+    width:13%
+    }
+    .header .texthead {
+    margin-top: 130px;
+}
+    .header .texthead div {
+    margin-top: 60px;
+}
+    
+   /*    End Section Header*/
+}
+    /* ////////////////////////////////////////////////////*/
+
+   
+ /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+    
+    
+    /*======================================*/
+/* Small Devices */
+/*======================================*/
+@media (min-width: 576px)  and (max-width:767px)
+{
+    /*    Start Section Testmonail */
+     #Testmonial .headsec span
+    {
+        color: darkgreen;
+    }
+    #Testmonial .testitext {
+        margin-bottom: 80px !important;
+}
+     #Testmonial p {
+        font-size: $mainfontsize - 6;
+        width: 100% !important;
+    }
+      /* End Section Testmonail */
+}
+/*======================================*/
+ /* Small Devices */
+/*======================================*/
+ @media (max-width:767px)
+{
+     /*    Start Section About */
+   
+     .about .twoabout {
+        border:0;
+        height: 300px;
+    }
+   
+    
+    .about .oneabout 
+    {
+        margin-bottom: 40px;
+        margin-top: 20px;
+    }
+    /*    End Section About */
+    /*    Start Section Work */
+        
+     #work .img-work img{
+            height: 200px;
+    }
+    
+    /*    End Section Work */
+    
+      /*    Start Section Team */
+     #team .teamimg
+    {
+        height: 300px!important;
+    }
+      /*    End Section Team */
+    
+     /*    Start Section pricing */
+     #pricing .maincard {
+        margin-top: 20px !important;
+    }
+    #pricing .card
+    {
+        width: 80%;
+        margin: 20px auto;
+    }
+     /*    End Section pricing */
+    
+
+    
+       #stats  .background-stats {
+            height: 680px;
+    }
+
+           #stats  .headsec {
+                margin: 10px 0px 20px !important;
+                font-size: $mainfontsize + 11 !important;
+    }
+
+                 #stats  .headsec:after {
+                    margin: 20px auto 0px !important;
+                }
+
+           #stats .count-stats {
+                margin: 40px 0px 20px!important;
+    }
+                #stats .count-stats i {
+                    font-size: $mainfontsize + 40 !important;
+                }
+
+                #stats .count-stats h2 {
+
+                    margin-top: 10px !important;
+        font-size:$mainfontsize + 10 !important;
+    }   
+
+}
+    
+    
+ /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+    
+    /*======================================*/
+/* Extra Small Devices */
+/*======================================*/
+@media (max-width: 575px)
+{
+    
+    /*    Start Section Work */
+    
+        #work .img-work{
+            width: 50%;
+    }
+    
+    /*    End Section Work */
+    
+    /*    Start Section Team */
+  
+    #team .teamimg
+    {
+        width: 70%;
+        margin: 5px auto;
+    }
+    
+    /*    End Section Team */
+    
+    
+     /*    Start Section Testmonail */
+     #Testmonial p {
+        font-size: 15px;
+        width: 100% !important;
+    }
+
+    #Testmonial .carousel .pblacok::after,
+    #Testmonial .carousel .pblacok::before {
+        font-size: $mainfontsize + 25 !important;
+    }
+
+    #Testmonial .testitext {
+        margin-bottom: 50px !important;
+    }
+ #Testmonial .carousel-inner .carousel-item img {
+                    margin: 10px auto;
+     }
+    
+     /*    End Section Testmonail */
+    
+      /*    Start Section stats */
+        #stats  .background-stats {
+
+            height: 950px !important;
+    }
+    #stats  .count-stats h2 {
+                margin-top: 15px !important;
+    }
+    #stats .count-stats {
+            margin:5px 0px 20px !important;
+    }
+      /*    End Section stats */
+    .footer .first-footer p
+    {
+        text-align: center;
+    }
+    }
+/*======================================*/
+ /*Extra Small Devices */
+/*======================================*/
+    
+ /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+    
+ 
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+/*
+
+
+@media(max-width:576px)
+{ 
+    .footer
+{
+text-align: center;   
+}
+}
+@media(min-width:768px)and(max-width:992px)
+{ 
+    .footer
+{
+  .first-footer p{
+            font-size: 16px;
+}
+}
+}
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*======================================*/
+/*=========== End Media Query ========*/
+/*======================================*/

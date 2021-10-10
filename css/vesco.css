@@ -1,0 +1,978 @@
+@charset "UTF-8";
+/* line 2, E:/Vesco/css/vesco.scss */
+/* line 7, vesco.scss */
+.tsition, .mainbtn, .btnvesco, .btnvesco:before, .topbtn, .navbar-expand-lg, .header .navbar-toggler span i, .header .navbar-toggler, .header .navbar .navbar-brand, .header .navbar .nav-item .dropdown-menu, .header .navbar .nav-item .dropdown-menu .dropdown-item, .header .navbar .nav-link, .header .navbar .nav-link:before, .header .texthead div .fa-angle-double-down, .serviecs .oneser i, #team .desc ul li i, #pricing .card, #contact .cont .one-cont .one-cont-3 span i, #contact .cont .two-cont form .btn {
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out; }
+
+/* /////////////////// Buttons /////////////////// */
+/* line 16, vesco.scss */
+.mainbtn {
+  font-weight: 500;
+  text-align: center;
+  padding: .575rem 1.3rem;
+  font-size: .8rem;
+  letter-spacing: 1px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.5;
+  transition: all .5s ease-in-out;
+  border-radius: 0rem;
+  background-color: #fff;
+  color: #007ffb;
+  border: 1px solid #007ffb; }
+  /* line 32, vesco.scss */
+  .mainbtn:hover {
+    background-color: #007ffb;
+    color: #fff;
+    border: 1px solid #007ffb; }
+
+/* line 40, vesco.scss */
+.btnvesco {
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+  background-color: transparent;
+  border: 1px solid white;
+  padding: .575rem 1.3rem;
+  font-size: .8rem;
+  letter-spacing: 1px;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1.5;
+  border-radius: 0rem;
+  z-index: 0;
+  position: relative; }
+
+/* line 21, E:/Vesco/css/vesco.scss */
+/* line 59, vesco.scss */
+.btnvesco:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: white;
+  transform: scaleX(0);
+  transform-origin: top left; }
+
+/* line 31, E:/Vesco/css/vesco.scss */
+/* line 74, vesco.scss */
+.btnvesco:hover:before {
+  transform: scaleX(1); }
+
+/* line 32, E:/Vesco/css/vesco.scss */
+/* line 79, vesco.scss */
+.btnvesco:hover {
+  color: black; }
+
+/*  $maincolor;   */
+/* line 39, E:/Vesco/css/vesco.scss */
+/* line 85, vesco.scss */
+.headsec {
+  text-align: center;
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  font-size: 36px;
+  letter-spacing: 2px; }
+
+/* line 48, E:/Vesco/css/vesco.scss */
+/* line 95, vesco.scss */
+.headsec:after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 30px;
+  background-color: #007ffb;
+  margin: 20px auto; }
+
+/* line 58, E:/Vesco/css/vesco.scss */
+/* line 105, vesco.scss */
+.par {
+  text-transform: capitalize;
+  font-size: 14px;
+  font-weight: 500;
+  color: #555; }
+
+/* line 65, E:/Vesco/css/vesco.scss */
+/* line 113, vesco.scss */
+.mardiv {
+  margin: 100px auto 140px; }
+
+/*////////////////////////////////////////////////////////////////////*/
+/* line 72, E:/Vesco/css/vesco.scss */
+/* line 119, vesco.scss */
+body {
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow: hidden;
+  padding: 0;
+  font-family: 'Josefin Sans', sans-serif; }
+
+/* line 82, E:/Vesco/css/vesco.scss */
+/* line 130, vesco.scss */
+.topbtn {
+  background-color: white;
+  border: 2px solid #007ffb;
+  color: #007ffb;
+  padding: 5px 10px;
+  position: fixed;
+  font-size: 20px;
+  font-weight: bold;
+  display: none;
+  bottom: 50px;
+  right: 10px;
+  border-radius: 50%;
+  z-index: 2; }
+
+/* line 97, E:/Vesco/css/vesco.scss */
+/* line 147, vesco.scss */
+.topbtn:hover {
+  background-color: #007ffb;
+  border: 2px solid #007ffb;
+  color: white; }
+
+/* Start Heaer */
+/* line 104, E:/Vesco/css/vesco.scss */
+/* line 155, vesco.scss */
+.header {
+  background-image: url(../img/HeaderImg.jpg);
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  max-height: 700px;
+  z-index: 1; }
+
+/* line 114, E:/Vesco/css/vesco.scss */
+/* line 167, vesco.scss */
+.header .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(3, 3, 3, 0.6);
+  z-index: 2; }
+
+/* line 125, E:/Vesco/css/vesco.scss */
+/* line 178, vesco.scss */
+.navbar-expand-lg {
+  background-color: transparent; }
+
+/* line 130, E:/Vesco/css/vesco.scss */
+/* line 184, vesco.scss */
+.header .navbar-toggler span i {
+  font-size: 25px; }
+
+/* line 136, E:/Vesco/css/vesco.scss */
+/* line 190, vesco.scss */
+.header .navbar-toggler {
+  padding: .25rem .75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 0rem; }
+
+/* line 146, E:/Vesco/css/vesco.scss */
+/* line 201, vesco.scss */
+.header .navbar-toggler:focus {
+  outline: 0px; }
+
+/* line 150, E:/Vesco/css/vesco.scss */
+/* line 206, vesco.scss */
+.header .navbar .navbar-brand {
+  font-size: 26px;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-left: 60px; }
+
+/* line 215, vesco.scss */
+.header .navbar .navbar-brand:hover {
+  transform: scale(1.2); }
+
+/* line 220, vesco.scss */
+.header .navbar .navbar-brand .ves {
+  color: #007ffb; }
+
+/* line 159, E:/Vesco/css/vesco.scss */
+/* line 226, vesco.scss */
+.header .navbar .navbar-nav {
+  margin-right: 70px; }
+
+/* line 163, E:/Vesco/css/vesco.scss */
+/* line 231, vesco.scss */
+.header .navbar .nav-item .dropdown-menu {
+  display: none;
+  min-width: 6rem;
+  padding: 0rem 0;
+  margin: .155rem 0 0;
+  background-color: rgba(3, 3, 3, 0.5);
+  border-radius: 0rem; }
+
+/* line 173, E:/Vesco/css/vesco.scss */
+/* line 242, vesco.scss */
+.header .navbar .nav-item .dropdown-menu .dropdown-item {
+  padding: .45rem 1.5rem;
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 15px; }
+
+/* line 184, E:/Vesco/css/vesco.scss */
+/* line 251, vesco.scss */
+.dropdown-divider {
+  margin: 0rem 0; }
+
+/* line 187, E:/Vesco/css/vesco.scss */
+/* line 256, vesco.scss */
+.header .navbar .nav-item .dropdown-menu .dropdown-item:hover {
+  background-color: lightgray;
+  color: #007ffb;
+  font-weight: bold; }
+
+/* line 194, E:/Vesco/css/vesco.scss */
+/* line 263, vesco.scss */
+.header .navbar .nav-item.dropdown:hover .dropdown-menu {
+  display: block; }
+
+/* line 198, E:/Vesco/css/vesco.scss */
+/* line 268, vesco.scss */
+.header .navbar .nav-link {
+  color: white;
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 0px 15px;
+  padding: 0px;
+  position: relative; }
+
+/* line 279, vesco.scss */
+.header .navbar .nav-link:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background-color: #007ffb;
+  transform: scaleX(0); }
+
+/* line 290, vesco.scss */
+.header .navbar .nav-link:hover:before, .header .navbar .active:before {
+  transform: scaleX(1); }
+
+/* line 209, E:/Vesco/css/vesco.scss */
+/* line 295, vesco.scss */
+.header .navbar .nav-link.active {
+  color: #007ffb;
+  font-size: 14px !important;
+  font-weight: 900 !important; }
+
+/* line 301, vesco.scss */
+.header .navbar .nav-link:hover {
+  color: #007ffb;
+  font-weight: 900;
+  font-size: 13px !important; }
+
+/* line 222, E:/Vesco/css/vesco.scss */
+/* line 307, vesco.scss */
+.abdo {
+  background-color: deeppink;
+  margin-top: 50px;
+  text-align: center;
+  font-size: 65px;
+  color: black;
+  height: 600px; }
+
+/* line 232, E:/Vesco/css/vesco.scss */
+/* line 317, vesco.scss */
+.header .texthead {
+  text-align: center;
+  color: white;
+  margin-top: 190px; }
+
+/* line 238, E:/Vesco/css/vesco.scss */
+/* line 324, vesco.scss */
+.header .texthead h1 {
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px; }
+
+/* line 244, E:/Vesco/css/vesco.scss */
+/* line 331, vesco.scss */
+.header .texthead button {
+  margin-top: 15px; }
+
+/* line 251, E:/Vesco/css/vesco.scss */
+/* line 336, vesco.scss */
+.header .texthead div .fa-angle-double-down {
+  font-size: 20px;
+  padding: 13px 14px;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 50px;
+  color: #fff;
+  animation: angry-animation 1.5s linear infinite normal; }
+
+/* line 262, E:/Vesco/css/vesco.scss */
+@keyframes angry-animation {
+  100% ,0% {
+    transform: translateY(0px);
+    opacity: .5; }
+  50% {
+    transform: translateY(30px);
+    opacity: 1; } }
+/* line 270, E:/Vesco/css/vesco.scss */
+/* line 374, vesco.scss */
+.header .texthead div {
+  margin-top: 110px; }
+
+/* End Heaer */
+/* Start serviecs */
+/* line 294, E:/Vesco/css/vesco.scss */
+/* line 383, vesco.scss */
+.serviecs .ser {
+  margin-bottom: 40px; }
+
+/* line 298, E:/Vesco/css/vesco.scss */
+/* line 388, vesco.scss */
+.serviecs .oneser {
+  clear: both; }
+
+/* line 302, E:/Vesco/css/vesco.scss */
+/* line 393, vesco.scss */
+.serviecs h2 {
+  margin-bottom: 70px; }
+
+/* line 306, E:/Vesco/css/vesco.scss */
+/* line 398, vesco.scss */
+.serviecs .oneser i {
+  float: left;
+  margin-top: 8px;
+  margin-right: 20px;
+  padding: 16px;
+  color: #007ffb;
+  font-size: 39px;
+  cursor: pointer;
+  border-radius: 0px; }
+
+/* line 318, E:/Vesco/css/vesco.scss */
+/* line 411, vesco.scss */
+.serviecs .oneser i:hover {
+  background-color: #007ffb;
+  color: #fff; }
+
+/* line 323, E:/Vesco/css/vesco.scss */
+/* line 417, vesco.scss */
+.serviecs .twoser h3 {
+  margin-left: 70px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700; }
+
+/* line 331, E:/Vesco/css/vesco.scss */
+/* line 426, vesco.scss */
+.serviecs .twoser p {
+  margin-left: 70px; }
+
+/* End serviecs */
+/*////////////////////////////////////////*/
+/* start About */
+/* line 343, E:/Vesco/css/vesco.scss */
+/* line 434, vesco.scss */
+.about.mardiv {
+  margin: 110px auto 100px; }
+
+/* line 348, E:/Vesco/css/vesco.scss */
+/* line 439, vesco.scss */
+.about .oneabout {
+  margin-top: 220px; }
+
+/* line 352, E:/Vesco/css/vesco.scss */
+/* line 444, vesco.scss */
+.about .headsec {
+  text-align: left;
+  letter-spacing: 0px;
+  font-size: 27px; }
+
+/* line 358, E:/Vesco/css/vesco.scss */
+/* line 451, vesco.scss */
+.about .headsec:after {
+  width: 30px;
+  margin: 30px 0px;
+  margin-left: 0px; }
+
+/* line 365, E:/Vesco/css/vesco.scss */
+/* line 458, vesco.scss */
+.about .par {
+  text-align: justify;
+  margin-bottom: 30px; }
+
+/* line 370, E:/Vesco/css/vesco.scss */
+/* line 383, E:/Vesco/css/vesco.scss */
+/* line 467, vesco.scss */
+.about .twoabout {
+  background-image: url(../img/about.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 0px;
+  margin: 0px;
+  height: 580px;
+  border-left: 180px solid #fff;
+  border-top: 590px solid transparent; }
+
+/* End About */
+/* Start Work */
+/* line 487, vesco.scss */
+#work .headsec {
+  margin-bottom: 60px; }
+/* line 491, vesco.scss */
+#work .img-work {
+  padding: 0px;
+  overflow: hidden; }
+  /* line 495, vesco.scss */
+  #work .img-work img {
+    width: 100%;
+    height: 270px;
+    transition: transform .5s ease-in-out; }
+    /* line 500, vesco.scss */
+    #work .img-work img:hover {
+      transform: scale(1.3);
+      cursor: pointer; }
+
+/* End Work */
+/* Start Team */
+/* line 514, vesco.scss */
+#team .headsec {
+  margin-bottom: 60px; }
+/* line 520, vesco.scss */
+#team .teamleader .teamimg {
+  overflow: hidden;
+  height: 340px;
+  position: relative; }
+  /* line 525, vesco.scss */
+  #team .teamleader .teamimg img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: transform .5s ease-in-out; }
+    /* line 531, vesco.scss */
+    #team .teamleader .teamimg img:hover {
+      transform: scale(1.3);
+      cursor: pointer; }
+/* line 539, vesco.scss */
+#team .desc {
+  margin: 20px 0;
+  text-align: center; }
+  /* line 543, vesco.scss */
+  #team .desc h4 {
+    text-transform: uppercase;
+    font-size: 21px;
+    color: black; }
+  /* line 549, vesco.scss */
+  #team .desc h6 {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    color: #007ffb;
+    margin: 15px 0px; }
+  /* line 557, vesco.scss */
+  #team .desc ul li i {
+    font-size: 15px;
+    color: black;
+    cursor: pointer; }
+    /* line 563, vesco.scss */
+    #team .desc ul li i:hover {
+      transform: scale(1.7); }
+  /* line 568, vesco.scss */
+  #team .desc ul li i.fa-facebook:hover {
+    color: #3498db; }
+  /* line 572, vesco.scss */
+  #team .desc ul li i.fa-google:hover {
+    color: #EA2027; }
+  /* line 576, vesco.scss */
+  #team .desc ul li i.fa-instagram:hover {
+    color: #e67e22; }
+
+/* End Team */
+/* Start Testmonial */
+/* line 590, vesco.scss */
+#Testmonial .background-test {
+  background-image: url(../img/testi.jpg);
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 620px;
+  padding-top: 50px;
+  position: relative; }
+  /* line 601, vesco.scss */
+  #Testmonial .background-test .overlay-test {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(3, 3, 3, 0.7);
+    width: 100%;
+    height: 100%; }
+  /* line 613, vesco.scss */
+  #Testmonial .background-test .carousel .carousel-indicators li {
+    border-radius: 50%;
+    height: 13px;
+    width: 13px;
+    background-color: #ADADAD; }
+  /* line 620, vesco.scss */
+  #Testmonial .background-test .carousel .carousel-indicators .active {
+    background-color: #007ffb; }
+  /* line 628, vesco.scss */
+  #Testmonial .background-test .carousel .carousel-inner .carousel-item img {
+    margin: 20px auto;
+    border-radius: 50%;
+    width: 125px;
+    height: 125px;
+    cursor: pointer; }
+  /* line 637, vesco.scss */
+  #Testmonial .background-test .carousel .carousel-inner .carousel-item .testitext {
+    margin-bottom: 110px; }
+    /* line 640, vesco.scss */
+    #Testmonial .background-test .carousel .carousel-inner .carousel-item .testitext blockquote {
+      text-align: center;
+      position: relative;
+      font-family: Geogia, sans-serif; }
+      /* line 645, vesco.scss */
+      #Testmonial .background-test .carousel .carousel-inner .carousel-item .testitext blockquote::after {
+        content: "”";
+        top: 0px;
+        left: 30px; }
+      /* line 651, vesco.scss */
+      #Testmonial .background-test .carousel .carousel-inner .carousel-item .testitext blockquote::before {
+        content: "“";
+        right: 30px;
+        bottom: -20px; }
+      /* line 657, vesco.scss */
+      #Testmonial .background-test .carousel .carousel-inner .carousel-item .testitext blockquote::before, #Testmonial .background-test .carousel .carousel-inner .carousel-item .testitext blockquote::after {
+        position: absolute;
+        line-height: 0;
+        font-size: 90px;
+        color: lightgray;
+        font-style: italic; }
+      /* line 666, vesco.scss */
+      #Testmonial .background-test .carousel .carousel-inner .carousel-item .testitext blockquote p {
+        width: 85%;
+        margin: 30px auto 50px;
+        font-style: italic;
+        color: white;
+        line-height: 30px;
+        text-transform: capitalize; }
+    /* line 679, vesco.scss */
+    #Testmonial .background-test .carousel .carousel-inner .carousel-item .testitext strong {
+      text-transform: capitalize;
+      color: #ADADAD;
+      font-size: 20px; }
+    /* line 685, vesco.scss */
+    #Testmonial .background-test .carousel .carousel-inner .carousel-item .testitext span {
+      color: #8E8989;
+      text-transform: capitalize; }
+  /* line 694, vesco.scss */
+  #Testmonial .background-test .headsec {
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 32px;
+    letter-spacing: 2px; }
+    /* line 703, vesco.scss */
+    #Testmonial .background-test .headsec:after {
+      content: "";
+      display: block;
+      height: 3px;
+      width: 30px;
+      background-color: #007ffb;
+      margin: 20px auto; }
+    /* line 712, vesco.scss */
+    #Testmonial .background-test .headsec span {
+      color: #007ffb; }
+
+/* End Testmonial */
+/* Start Pricing */
+/* line 726, vesco.scss */
+#pricing {
+  perspective: 600px;
+  transform-style: preserve-3d; }
+  /* line 730, vesco.scss */
+  #pricing h2 {
+    margin-bottom: 90px; }
+  /* line 734, vesco.scss */
+  #pricing .card {
+    border: 1px solid #007ffb;
+    border-radius: 0px;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 20px; }
+    /* line 743, vesco.scss */
+    #pricing .card:hover {
+      transform: translateZ(50px);
+      background-color: #007ffb;
+      border: none; }
+      /* line 749, vesco.scss */
+      #pricing .card:hover .card-body h4 {
+        color: #fff; }
+      /* line 753, vesco.scss */
+      #pricing .card:hover .card-body h6 {
+        color: lightgray; }
+      /* line 757, vesco.scss */
+      #pricing .card:hover .card-body h3 {
+        background-color: white; }
+        /* line 760, vesco.scss */
+        #pricing .card:hover .card-body h3 span {
+          color: #007ffb; }
+      /* line 765, vesco.scss */
+      #pricing .card:hover .card-body .h3center {
+        color: white; }
+      /* line 769, vesco.scss */
+      #pricing .card:hover .card-body ul li {
+        color: lightgray; }
+      /* line 773, vesco.scss */
+      #pricing .card:hover .card-body .btn {
+        background-color: #007ffb;
+        color: white;
+        border: 1px solid white; }
+        /* line 778, vesco.scss */
+        #pricing .card:hover .card-body .btn:hover {
+          background-color: #fff;
+          color: #007ffb;
+          border: 1px solid white; }
+    /* line 787, vesco.scss */
+    #pricing .card .card-body {
+      padding: 0px;
+      overflow: hidden; }
+      /* line 791, vesco.scss */
+      #pricing .card .card-body h4 {
+        font-weight: bold;
+        text-transform: capitalize;
+        padding: 30px 0px 5px;
+        color: #007ffb; }
+      /* line 798, vesco.scss */
+      #pricing .card .card-body h6 {
+        color: #8B999F;
+        font-weight: normal;
+        font-size: 16px;
+        padding-bottom: 20px; }
+      /* line 805, vesco.scss */
+      #pricing .card .card-body h3 {
+        background-color: lightgray;
+        color: black;
+        width: 100%;
+        padding: 15px 0px;
+        font-size: 17px;
+        font-weight: normal;
+        margin-bottom: 20px; }
+        /* line 814, vesco.scss */
+        #pricing .card .card-body h3 span {
+          font-size: 35px;
+          color: #007ffb;
+          font-weight: bold; }
+      /* line 821, vesco.scss */
+      #pricing .card .card-body .h3center {
+        color: white; }
+      /* line 825, vesco.scss */
+      #pricing .card .card-body ul li {
+        color: gray;
+        padding-top: 17px;
+        font-size: 15px;
+        font-weight: bold;
+        text-transform: uppercase; }
+      /* line 833, vesco.scss */
+      #pricing .card .card-body .btn {
+        margin: 30px 0 40px;
+        padding: 10px 40px; }
+  /* line 840, vesco.scss */
+  #pricing .maincard {
+    background-color: #007ffb;
+    border: none;
+    padding: 40px 0px;
+    margin-top: -40px; }
+    /* line 847, vesco.scss */
+    #pricing .maincard .card-body h4 {
+      color: #fff; }
+    /* line 851, vesco.scss */
+    #pricing .maincard .card-body h6 {
+      color: lightgray; }
+    /* line 855, vesco.scss */
+    #pricing .maincard .card-body h3 {
+      background-color: white; }
+      /* line 858, vesco.scss */
+      #pricing .maincard .card-body h3 span {
+        color: #007ffb; }
+    /* line 863, vesco.scss */
+    #pricing .maincard .card-body .h3center {
+      color: white; }
+    /* line 867, vesco.scss */
+    #pricing .maincard .card-body ul li {
+      color: lightgray; }
+    /* line 871, vesco.scss */
+    #pricing .maincard .card-body .btn {
+      background-color: #007ffb;
+      color: white;
+      border: 1px solid white; }
+
+/* End Pricing */
+/* Start Stats */
+/* line 892, vesco.scss */
+#stats .background-stats {
+  background-image: url(../img/stats.jpg);
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 530px;
+  padding-top: 50px;
+  position: relative; }
+  /* line 903, vesco.scss */
+  #stats .background-stats .overlay-stats {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(3, 3, 3, 0.7);
+    width: 100%;
+    height: 100%; }
+  /* line 914, vesco.scss */
+  #stats .background-stats .headsec {
+    margin: 30px 0px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 32px;
+    letter-spacing: 2px; }
+    /* line 924, vesco.scss */
+    #stats .background-stats .headsec:after {
+      content: "";
+      display: block;
+      height: 3px;
+      width: 30px;
+      background-color: #007ffb;
+      margin: 20px auto; }
+    /* line 933, vesco.scss */
+    #stats .background-stats .headsec span {
+      color: #007ffb; }
+  /* line 938, vesco.scss */
+  #stats .background-stats .count-stats {
+    cursor: pointer;
+    text-align: center;
+    margin: 80px 0px 20px;
+    position: relative;
+    transition: all .5s ease-in-out; }
+    /* line 944, vesco.scss */
+    #stats .background-stats .count-stats:hover {
+      -webkit-animation: rotate-scale-up 0.65s linear both;
+      animation: rotate-scale-up 0.65s linear both; }
+    /* line 952, vesco.scss */
+    #stats .background-stats .count-stats i {
+      color: #007ffb;
+      font-size: 70px; }
+    /* line 957, vesco.scss */
+    #stats .background-stats .count-stats h2 {
+      color: #fff;
+      margin-top: 25px;
+      font-size: 40px;
+      font-family: 'Libre Baskerville', serif; }
+    /* line 964, vesco.scss */
+    #stats .background-stats .count-stats small {
+      text-transform: uppercase;
+      color: gray;
+      font-family: 'Libre Baskerville', serif; }
+
+/* ----------------------------------------------
+ * Generated by Animista on 2019-9-22 10:6:59
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+/**
+ * ----------------------------------------
+ * animation rotate-scale-up
+ * ----------------------------------------
+ */
+@-webkit-keyframes rotate-scale-up {
+  0% {
+    -webkit-transform: scale(1) rotateZ(0);
+    transform: scale(1) rotateZ(0); }
+  50% {
+    -webkit-transform: scale(2) rotateZ(180deg);
+    transform: scale(2) rotateZ(180deg); }
+  100% {
+    -webkit-transform: scale(1) rotateZ(360deg);
+    transform: scale(1) rotateZ(360deg); } }
+@keyframes rotate-scale-up {
+  0% {
+    -webkit-transform: scale(1) rotateZ(0);
+    transform: scale(1) rotateZ(0); }
+  50% {
+    -webkit-transform: scale(2) rotateZ(180deg);
+    transform: scale(2) rotateZ(180deg); }
+  100% {
+    -webkit-transform: scale(1) rotateZ(360deg);
+    transform: scale(1) rotateZ(360deg); } }
+/* End Stats */
+/* Start Section Clients */
+/* line 1021, vesco.scss */
+#clients .clients-divs {
+  margin: 40px 0px; }
+  /* line 1024, vesco.scss */
+  #clients .clients-divs .owl-dots {
+    margin-top: 25px; }
+
+/* End Section Clients */
+/* Start Section Contact */
+/* line 1034, vesco.scss */
+#contact .cont {
+  background-color: #1E1E1E;
+  padding: 70px 0px 40px;
+  color: white; }
+  /* line 1039, vesco.scss */
+  #contact .cont .headsec {
+    color: #fff;
+    margin-bottom: 30px; }
+    /* line 1043, vesco.scss */
+    #contact .cont .headsec span {
+      color: #007ffb; }
+  /* line 1048, vesco.scss */
+  #contact .cont .par {
+    color: gray;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 500; }
+  /* line 1059, vesco.scss */
+  #contact .cont .one-cont .one-cont-1 h4 {
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px; }
+  /* line 1068, vesco.scss */
+  #contact .cont .one-cont .one-cont-1 p.par strong {
+    color: lightgray;
+    letter-spacing: 1px; }
+  /* line 1075, vesco.scss */
+  #contact .cont .one-cont .one-cont-2 {
+    margin-top: 50px; }
+    /* line 1078, vesco.scss */
+    #contact .cont .one-cont .one-cont-2 .oc2 {
+      margin-top: 15px; }
+      /* line 1081, vesco.scss */
+      #contact .cont .one-cont .one-cont-2 .oc2 span i {
+        font-size: 14px;
+        color: gray;
+        margin-right: 15px; }
+      /* line 1086, vesco.scss */
+      #contact .cont .one-cont .one-cont-2 .oc2 span.par {
+        font-size: 15px; }
+  /* line 1093, vesco.scss */
+  #contact .cont .one-cont .one-cont-3 {
+    margin-top: 50px;
+    margin-bottom: 30px; }
+    /* line 1097, vesco.scss */
+    #contact .cont .one-cont .one-cont-3 span i {
+      margin-right: 20px;
+      font-size: 19px;
+      color: gray;
+      cursor: pointer; }
+      /* line 1104, vesco.scss */
+      #contact .cont .one-cont .one-cont-3 span i:hover {
+        color: #007ffb;
+        transform: scale(1.7); }
+  /* line 1120, vesco.scss */
+  #contact .cont .two-cont form .btn {
+    margin-bottom: 40px;
+    margin-top: 10px;
+    margin-left: 5px;
+    padding: .375rem 2.55rem;
+    font-size: 1.1rem;
+    overflow: hidden;
+    transform: scaleX(1); }
+    /* line 1130, vesco.scss */
+    #contact .cont .two-cont form .btn:before {
+      font-family: FontAwesome;
+      content: "\f061";
+      position: absolute;
+      bottom: 8px;
+      font-size: 15px;
+      right: -30px;
+      transition: all 400ms ease; }
+    /* line 1139, vesco.scss */
+    #contact .cont .two-cont form .btn:hover:before {
+      right: 20px; }
+  /* line 1144, vesco.scss */
+  #contact .cont .two-cont form .form-group {
+    margin-bottom: 1.4rem; }
+    /* line 1147, vesco.scss */
+    #contact .cont .two-cont form .form-group .form-control:not([placeholder="Message"]) {
+      height: calc(1.9em + .85rem + 3px);
+      font-size: .9rem;
+      color: #fff;
+      background-color: transparent;
+      border: 1px solid #4e4c4c;
+      border-radius: 0rem; }
+      /* line 1154, vesco.scss */
+      #contact .cont .two-cont form .form-group .form-control:not([placeholder="Message"]):focus {
+        box-shadow: 0 0 0 0.1rem #2882da; }
+    /* line 1159, vesco.scss */
+    #contact .cont .two-cont form .form-group .form-control[placeholder="Message"] {
+      font-size: .9rem;
+      color: #fff;
+      background-color: transparent;
+      border: 1px solid #4e4c4c;
+      border-radius: 0rem; }
+      /* line 1165, vesco.scss */
+      #contact .cont .two-cont form .form-group .form-control[placeholder="Message"]:focus {
+        box-shadow: 0 0 0 0.1rem #2882da; }
+
+/* End Section Contact */
+/* Start Section Footer */
+/* line 1182, vesco.scss */
+.footer {
+  background-color: #1E1E1E;
+  padding: 10px 0px; }
+  /* line 1188, vesco.scss */
+  .footer .first-footer p {
+    text-transform: capitalize;
+    font-size: 17px;
+    margin-top: 23px;
+    color: gray; }
+    /* line 1193, vesco.scss */
+    .footer .first-footer p strong {
+      color: #007ffb; }
+  /* line 1198, vesco.scss */
+  .footer nav {
+    margin-top: 23px; }
+    /* line 1201, vesco.scss */
+    .footer nav .breadcrumb {
+      background-color: transparent;
+      padding: 0px; }
+      /* line 1207, vesco.scss */
+      .footer nav .breadcrumb .breadcrumb-item a {
+        color: gray; }
+      /* line 1212, vesco.scss */
+      .footer nav .breadcrumb .active {
+        color: #007ffb; }
+
+/* End Section Footer */
+/*# sourceMappingURL=vesco.css.map */
+
+/*# sourceMappingURL=vesco.css.map */
